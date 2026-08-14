@@ -28,8 +28,8 @@ const ProjectCard: React.FC<{ project: Project; onOpen: () => void }> = ({
       </div>
 
       <div className="pt-1 pb-3 px-2">
-        <h3 className="text-[0.9rem] lg:text-[1rem]  text-text-secondary font-semibold">{project.title}</h3>
-        <p className="text-[0.8rem] lg:text-[0.85rem] font-light text-text-secondary">
+        <h3 className="text-[1rem] lg:text-[1.25rem]  text-text-secondary font-semibold">{project.title}</h3>
+        <p className="text-[0.9rem] lg:text-[1rem] font-light text-text-secondary">
           {project.shortDescription}
         </p>
       </div>
