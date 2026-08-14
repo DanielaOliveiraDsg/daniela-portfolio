@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
   }, []);
 
   return (
-    <footer className="text-center text-[#eeedec] text-sm font-light">
+    <footer className="bg-accent text-center text-[#eeedec] text-sm font-light">
 
       <div
         className={`fixed bottom-7 right-5 md:bottom-10 md:right-10 z-50 transition-all duration-300 ${
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
         </Link>
       </div>
 
-      <div className="py-6 container mx-auto bg-accent">
+      <div className="py-6 container mx-auto">
         &copy; {new Date().getFullYear()} Daniela Oliveira
       </div>
     </footer>

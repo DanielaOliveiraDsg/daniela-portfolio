@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
         <h2 className="text-5xl font-normal mb-8">Get in Touch</h2>
         <div className="flex items-center justify-between w-full">
           <p className="text-text-secondary text-base md:text-lg">
-            Let's work together
+            Let's work together!
           </p>
           <a
             className="group flex items-center gap-2 cursor-pointer font-light text-base md:text-lg text-accent hover:text-accent-hover transition-colors"
@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
               strokeWidth={1.5}
               className="transition-transform group-hover:scale-110"
             />
-            Email me
+            danielaoliveiradsg@gmail.com
           </a>
         </div>
       </div>
